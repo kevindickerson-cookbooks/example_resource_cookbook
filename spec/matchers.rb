@@ -1,11 +1,9 @@
 if defined?(ChefSpec)
   if ChefSpec.respond_to?(:define_matcher)
-    # ChefSpec >= 4.1
-    ChefSpec.define_matcher :example_resource
+    ChefSpec.define_matcher :example_resource # ChefSpec >= 4.1
   elsif defined?(ChefSpec::Runner) &&
         ChefSpec::Runner.respond_to?(:define_runner_method)
-    # ChefSpec < 4.1
-    ChefSpec::Runner.define_runner_method :example_resource
+    ChefSpec::Runner.define_runner_method :example_resource # ChefSpec < 4.1
   end
 
   def create_example_resource(resource_name)
