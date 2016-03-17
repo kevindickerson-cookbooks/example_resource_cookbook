@@ -1,5 +1,7 @@
 # example_resource_cookbook
 
+[![Build Status](https://travis-ci.org/kevindickerson/example_resource_cookbook.svg?branch=master)](https://travis-ci.org/kevindickerson/example_resource_cookbook)
+
 This is a resource cookbook that demonstrates how to use Inspec for integration testing.
 
 ## To test
