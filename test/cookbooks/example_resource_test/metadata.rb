@@ -1,3 +1,3 @@
 name 'example_resource_test'
 version '0.0.0'
-depends 'example_resource_cookbook'
+depends 'example_resources'
