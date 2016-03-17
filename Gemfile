@@ -6,4 +6,5 @@ group :integration do
   gem 'kitchen-inspec', '0.12.4'
   gem 'kitchen-vagrant', '0.19.0'
   gem 'berkshelf', '4.3.0'
+  gem 'chefspec', '4.6.0'
 end
