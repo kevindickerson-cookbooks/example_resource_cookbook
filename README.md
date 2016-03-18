@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/kevindickerson-cookbooks/example_resources.svg?branch=master)](https://travis-ci.org/kevindickerson-cookbooks/example_resources)
 
-This is a resource cookbook that demonstrates how to use Inspec for integration testing.
+This is a resource cookbook that demonstrates how to use InSpec for integration testing.
 
 ## To test
 1. Install bundled gems using Bundler in context of ChefDK
