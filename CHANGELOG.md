@@ -4,6 +4,14 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
+v1.0.2 (2016-03-19)
+
+- Improve metadata for Supermarket
+
+v1.0.1 (2016-03-18)
+
+- Correct spelling of InSpec
+
 v1.0.0 (2016-03-17)
 
 - Refactor name from `example_resource_cookbook` to `example_resources`
