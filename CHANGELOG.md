@@ -4,6 +4,10 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
+v1.0.3 (2016-03-19)
+
+- Minor updates
+
 v1.0.2 (2016-03-19)
 
 - Improve metadata for Supermarket
