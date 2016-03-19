@@ -7,6 +7,9 @@ This project adheres to [semantic versioning 2.0][semver].
 v1.0.2 (2016-03-19)
 
 - Improve metadata for Supermarket
+- Increase detail in readme
+- Add license
+- Point to Supermarket instead of GitHub
 
 v1.0.1 (2016-03-18)
 
