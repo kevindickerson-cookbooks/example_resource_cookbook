@@ -1,6 +1,6 @@
 resource_name :example_resource
 
-property :example_property, String, default: 'हॅलो जग!'
+property :example_property, String, default: 'नमस्कार जग!'
 
 default_action :create
 
