@@ -49,3 +49,18 @@ bin_file = spec.bin_file("kitchen")
 
 Kernel.load(bin_file)
 ```
+
+## Development
+
+* [GitHub][repository]
+* [Supermarket][supermarket]
+* [Issues, questions, requests][issues]
+
+## Author
+
+Created and maintained by [Kevin Dickerson](kevin), <kevin.dickerson@loom.technology>.
+
+[kevin]: http://kevinjdickerson.com
+[repository]: https://github.com/kevindickerson-cookbooks/example_resources
+[supermarket]: https://supermarket.chef.io/cookbooks/example_resources
+[issues]: https://github.com/kevindickerson-cookbooks/example_resources/issues
