@@ -4,9 +4,25 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
+v1.0.7 (2016-03-19)
+
+- Add more platform support to test suites
+
+v1.0.6 (2016-03-19)
+
+- Add a better translation
+
+v1.0.5 (2016-03-19)
+
+- Update short description
+
+v1.0.4 (2016-03-19)
+
+- Version bump for premature Supermarket upload
+
 v1.0.3 (2016-03-19)
 
-- Minor updates
+- Update author email
 
 v1.0.2 (2016-03-19)
 
