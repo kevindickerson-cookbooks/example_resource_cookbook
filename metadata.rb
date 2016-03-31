@@ -5,16 +5,12 @@ license 'Apache 2.0'
 description 'Provider cookbook that defines an example Chef resource. ' \
             'Integration tests in InSpec.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '1.0.8'
+version '1.0.9'
 
-supports 'centos'
-supports 'redhat'
-supports 'fedora'
-supports 'debian'
-supports 'ubuntu'
-supports 'smartos'
-supports 'omnios'
-supports 'suse'
+supports 'centos', '>= 5.11'
+supports 'debian', '>= 7.9'
+supports 'fedora', '>= 22.0'
+supports 'ubuntu', '>= 12.04'
 
 source_url 'https://github.com/kevindickerson-cookbooks/example_resources'
 issues_url 'https://github.com/kevindickerson-cookbooks/example_resources/issues'

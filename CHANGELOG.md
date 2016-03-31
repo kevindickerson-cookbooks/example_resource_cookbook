@@ -4,9 +4,10 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
-In progress
+v1.0.9 (2016-03-31)
 
 - Updates change log to be written in present simple verb tense
+- Changes platform support to be consistent with the [example][example] cookbook, which depends on this cookbook
 
 v1.0.8 (2016-03-30)
 
@@ -56,3 +57,4 @@ v0.1.0 (2016-03-16)
 - Supports Centos
 
 [semver]: http://semver.org/
+[example]: https://supermarket.chef.io/cookbooks/example
