@@ -4,6 +4,12 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
+v1.0.8 (2016-03-30)
+
+- Adds cookbook version badge
+- Updates readme for ChefDK 0.12.0
+- Updates short description
+
 v1.0.7 (2016-03-19)
 
 - Add more platform support to test suites
