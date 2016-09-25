@@ -20,6 +20,6 @@ platforms:
   - name: ubuntu-14.04
 
 suites:
-  - name: example_resource
+  - name: create_example_resource
     run_list:
       - recipe[example_resource_test::integration]

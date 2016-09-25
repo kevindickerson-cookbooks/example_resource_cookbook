@@ -10,9 +10,9 @@ This is a simple resource cookbook that defines a Chef resource. I wrote another
 
 ## To test
 
-Install [ChefDK][chefdk] 0.12.0 or higher.  (Test Kitchen 1.6.0 or higher is required. Test Kitchen 1.6.0 is bundled with  0.12.0 or higher.)
+This cookbook was tested most recently with ChefDK v0.17.17. It should work with ChefDK v0.12.0 or higher.
 
-If you're using ChefDK ~> 0.11, look at [v1.0.7][v1.0.7] of this cookbook for instructions on testing.
+If you're using ChefDK ~> 0.11, look at [v1.0.7] of this cookbook for instructions on testing.
 
 ```bash
 $ kitchen verify
@@ -26,11 +26,12 @@ $ kitchen verify
 
 ## Author
 
-Created and maintained by Kevin Dickerson of [Loom](loom). <kevin.dickerson@loom.technology>.
+Created and maintained by Kevin Dickerson of [Loom]. <kevin.dickerson@loom.technology>.
 
-[loom]: https://loom.technology
+[Loom]: https://loom.technology
 [repository]: https://github.com/loom-cookbooks/example_resources
 [supermarket]: https://supermarket.chef.io/cookbooks/example_resources
 [issues]: https://github.com/loom-cookbooks/example_resources/issues
 [chefdk]: https://downloads.chef.io/chef-dk/
-[v0.1.4]: https://github.com/loom-cookbooks/example_resources/tree/v0.1.4
+[v1.0.7]: https://github.com/loom-cookbooks/example_resources/tree/v1.0.7
+[example_resources]: https://supermarket.chef.io/cookbooks/example_resources
