@@ -2,47 +2,65 @@ require 'spec_helper'
 
 describe 'example_resource_test::integration' do
   let(:create_example_resource_centos_511) do
-    ChefSpec::ServerRunner.new(platform: 'centos', version: '5.11',
+    ChefSpec::ServerRunner.new(
+      platform: 'centos',
+      version: '5.11',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_centos_67) do
-    ChefSpec::ServerRunner.new(platform: 'centos', version: '6.7',
+    ChefSpec::ServerRunner.new(
+      platform: 'centos',
+      version: '6.7',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_centos_72) do
-    ChefSpec::ServerRunner.new(platform: 'centos', version: '7.2.1511',
+    ChefSpec::ServerRunner.new(
+      platform: 'centos',
+      version: '7.2.1511',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_fedora_22) do
-    ChefSpec::ServerRunner.new(platform: 'fedora', version: '22',
+    ChefSpec::ServerRunner.new(
+      platform: 'fedora',
+      version: '22',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_fedora_23) do
-    ChefSpec::ServerRunner.new(platform: 'fedora', version: '23',
+    ChefSpec::ServerRunner.new(
+      platform: 'fedora',
+      version: '23',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_debian_79) do
-    ChefSpec::ServerRunner.new(platform: 'debian', version: '7.9',
+    ChefSpec::ServerRunner.new(
+      platform: 'debian',
+      version: '7.9',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_debian_82) do
-    ChefSpec::ServerRunner.new(platform: 'debian', version: '8.2',
+    ChefSpec::ServerRunner.new(
+      platform: 'debian',
+      version: '8.2',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_ubuntu_1204) do
-    ChefSpec::ServerRunner.new(platform: 'ubuntu', version: '12.04',
+    ChefSpec::ServerRunner.new(
+      platform: 'ubuntu',
+      version: '12.04',
       step_into: 'example_resource').converge described_recipe
   end
 
   let(:create_example_resource_ubuntu_1404) do
-    ChefSpec::ServerRunner.new(platform: 'ubuntu', version: '14.04',
+    ChefSpec::ServerRunner.new(
+      platform: 'ubuntu',
+      version: '14.04',
       step_into: 'example_resource').converge described_recipe
   end
 
