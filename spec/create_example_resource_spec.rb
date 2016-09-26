@@ -66,12 +66,12 @@ describe 'example_resource_test::integration' do
 
   context 'on centos' do
     it 'creates example_resource[my example resource]' do
-      expect(create_example_resource_centos_511).to \
-        create_example_resource 'my example resource'
-      expect(create_example_resource_centos_67).to \
-        create_example_resource 'my example resource'
-      expect(create_example_resource_centos_72).to \
-        create_example_resource 'my example resource'
+      expect(create_example_resource_centos_511)
+        .to create_example_resource 'my example resource'
+      expect(create_example_resource_centos_67)
+        .to create_example_resource 'my example resource'
+      expect(create_example_resource_centos_72)
+        .to create_example_resource 'my example resource'
     end
 
     it 'creates file [/hello.txt]' do
@@ -83,10 +83,10 @@ describe 'example_resource_test::integration' do
 
   context 'on fedora' do
     it 'creates example_resource[my example resource]' do
-      expect(create_example_resource_fedora_22).to \
-        create_example_resource 'my example resource'
-      expect(create_example_resource_fedora_23).to \
-        create_example_resource 'my example resource'
+      expect(create_example_resource_fedora_22)
+        .to create_example_resource 'my example resource'
+      expect(create_example_resource_fedora_23)
+        .to create_example_resource 'my example resource'
     end
 
     it 'creates file [/hello.txt]' do
@@ -97,10 +97,10 @@ describe 'example_resource_test::integration' do
 
   context 'on debian' do
     it 'creates example_resource[my example resource]' do
-      expect(create_example_resource_debian_79).to \
-        create_example_resource 'my example resource'
-      expect(create_example_resource_debian_82).to \
-        create_example_resource 'my example resource'
+      expect(create_example_resource_debian_79)
+        .to create_example_resource 'my example resource'
+      expect(create_example_resource_debian_82)
+        .to create_example_resource 'my example resource'
     end
 
     it 'creates file [/hello.txt]' do
@@ -111,10 +111,10 @@ describe 'example_resource_test::integration' do
 
   context 'on ubuntu' do
     it 'creates example_resource[my example resource]' do
-      expect(create_example_resource_ubuntu_1204).to \
-        create_example_resource 'my example resource'
-      expect(create_example_resource_ubuntu_1404).to \
-        create_example_resource 'my example resource'
+      expect(create_example_resource_ubuntu_1204)
+        .to create_example_resource 'my example resource'
+      expect(create_example_resource_ubuntu_1404)
+        .to create_example_resource 'my example resource'
     end
 
     it 'creates file [/hello.txt]' do

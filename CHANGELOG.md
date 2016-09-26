@@ -4,6 +4,9 @@ This file tracks and describes changes to `example_resources`.
 
 This project adheres to [semantic versioning 2.0][semver].
 
+v1.0.14 - 2016-09-25
+- Improves readability for unit tests
+
 v1.0.13 - 2016-09-25
 - Improves readability for unit tests
 
